@@ -1,0 +1,99 @@
+<class 'transformers.trainer.Trainer'>
+/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py:583: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py:583: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py:583: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+<class 'transformers.trainer.Trainer'>
+<class 'transformers.trainer.Trainer'>
+/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py:583: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+{'eval_loss': 2.271987199783325, 'eval_accuracy': 0.5975, 'eval_f1': 0.5957487416148343}
+/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py:583: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+                        precision    recall  f1-score   support
+
+              children       0.62      0.69      0.66       200
+        comics_graphic       0.84      0.80      0.82       200
+    fantasy_paranormal       0.42      0.37      0.39       200
+     history_biography       0.61      0.56      0.58       200
+mystery_thriller_crime       0.56      0.62      0.59       200
+                poetry       0.81      0.79      0.80       200
+               romance       0.59      0.65      0.62       200
+           young_adult       0.32      0.31      0.32       200
+
+              accuracy                           0.60      1600
+             macro avg       0.60      0.60      0.60      1600
+          weighted avg       0.60      0.60      0.60      1600
+
+LABEL: romance
+REVIEW TEXT: I received a copy of this book via NetGalley in exchange for an honest review.
+ CIA Agent Aaron "An ...
+
+LABEL: children
+REVIEW TEXT: Not really a storytime book, but cute if you have some one-on-one time with a child that loves dinos ...
+
+LABEL: comics_graphic
+REVIEW TEXT: Mad fucking madness! For sheer ballsy creativity this is the book you must read. For the coolest sup ...
+
+LABEL: comics_graphic
+REVIEW TEXT: A very interesting graphic novel about an authors retreat in a small village. Intelligently written  ...
+
+LABEL: comics_graphic
+REVIEW TEXT: see full review @ Katie's Corner
+ I'm continuing with my obsession with Mayu Shinjo's works. Howeve ...
+
+LABEL: children
+REVIEW TEXT: Text: 3 stars
+ Illustrations: 3 stars
+ Nonfiction picture book about time zones. Describes various ...
+
+LABEL: romance
+REVIEW TEXT: 4 STARS. This is a wonderful journey. While moments were overly descriptive here and there, I cannot ...
+
+LABEL: poetry
+REVIEW TEXT: Nightmares" is a book of poems written by Jack Prelutsky along with illustrations by Arnold Lobel. T ...
+
+LABEL: poetry
+REVIEW TEXT: I read these poems all the time...HAFIZ is my favorite mystic poet! ...
+
+LABEL: comics_graphic
+REVIEW TEXT: Another good Brubaker Captain America comic. This one has a lot of the nice espionage feel that the  ...
+
+TRUE LABEL: romance
+PREDICTED LABEL: fantasy_paranormal
+REVIEW TEXT: BEYOND WORDS! ...
+
+TRUE LABEL: mystery_thriller_crime
+PREDICTED LABEL: history_biography
+REVIEW TEXT: The further I got through this book, the more I regretted Larsson's early death, and the more I saw  ...
+
+TRUE LABEL: young_adult
+PREDICTED LABEL: fantasy_paranormal
+REVIEW TEXT: Quando un libro non mi piace non perdo tempo a recensirlo, a meno che il suddetto non mi abbia fatto ...
+
+TRUE LABEL: young_adult
+PREDICTED LABEL: mystery_thriller_crime
+REVIEW TEXT: I am not satisfied with that ending. Not at all. ...
+
+TRUE LABEL: mystery_thriller_crime
+PREDICTED LABEL: fantasy_paranormal
+REVIEW TEXT: why oh why does Tempe never learn? Is there a story where she doesn't blunder in without backup and  ...
+
+TRUE LABEL: history_biography
+PREDICTED LABEL: children
+REVIEW TEXT: Short and silly. Not very eventful, but amusing. ...
+
+TRUE LABEL: romance
+PREDICTED LABEL: young_adult
+REVIEW TEXT: Loved! of course I know it was a short story, but I wish it was longer... ...
+
+TRUE LABEL: young_adult
+PREDICTED LABEL: romance
+REVIEW TEXT: Interesting premise; it's set in Fandom, even though it's entitled Geekerella so they can make the C ...
+
+TRUE LABEL: history_biography
+PREDICTED LABEL: comics_graphic
+REVIEW TEXT: aka The Iron King ...
+[34m[1mwandb[0m: Finishing previous runs because reinit is set to 'default'.
